@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "mssql": "^12.7.0"
+  },
+  "scripts": {
+    "dev": "nodemon --legacy-watch index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
