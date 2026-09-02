@@ -3,6 +3,8 @@ LABEL maintainer: "yu870201@mail.com"
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN ["npm","install"]
-COPY . .
+#打包交給jenkins
+# COPY . .
 EXPOSE 3000
-CMD [ "npm","run","dev" ]
+#執行也交給jekins
+#CMD [ "npm","run","dev" ]
